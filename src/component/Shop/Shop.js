@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Bike from '../Bike/Bike';
+
 import './Shop.css'
 
 const Shop = () => {
@@ -15,10 +16,18 @@ const Shop = () => {
   }, [])
 
   const handleAddToCart = (bike) => {
-    // console.log(bike)
+    // console.log(bike);
     const newCart = [...cartSelect, bike];
-    setCartSelect(newCart);
+    if (newCart.length <= 4) {
+      setCartSelect(newCart);
+    } else {
+
+
+    }
   }
+
+
+
   return (
     <div className='shop-container'>
       <div className="bike-container">
@@ -34,11 +43,21 @@ const Shop = () => {
 
       </div>
       <div className="choose-container">
+
+
+
+
         <h3>Selected Bike {cartSelect.length}</h3>
+
         {
-          cartSelect.map(item => (<h3>{item.name}</h3>))
+
+          cartSelect.map(item => (<h3 key={item.id}>{item.name}</h3>))
 
         }
+
+
+
+
 
 
 
