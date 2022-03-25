@@ -1,5 +1,31 @@
-.bike img{
-  width: 200px;
-  height: 200px;
+.bike{
+ 
+  width: 300px;
+  height: 500px;
+  border: 2px solid #95A0A7;
+  border-radius: 8px;
+  position: relative;
 
+}
+.bike img{
+  height: 286px;
+  width: 286px;
+  border-radius: 8px;
+  margin: 7px;
+  
+
+
+}
+.btn-cart{
+  background: #FFE0B3;
+  border: 0;
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  padding: 12px 0;
+  position: absolute;
+  bottom: 0;
+ 
+}
+.btn-cart:hover{
+  background: rgb(223, 115, 115);
 }

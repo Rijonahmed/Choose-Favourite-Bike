@@ -4,13 +4,21 @@ import './Shop.css'
 
 const Shop = () => {
   const [bikes, setBikes] = useState([]);
-  console.log(bikes)
+  const [cartSelect, setCartSelect] = useState([]);
+  console.log(cartSelect)
+
 
   useEffect(() => {
     fetch('bikeinfo.json')
       .then(res => res.json())
       .then(data => setBikes(data))
   }, [])
+
+  const handleAddToCart = (bike) => {
+    // console.log(bike)
+    const newCart = [...cartSelect, bike];
+    setCartSelect(newCart);
+  }
   return (
     <div className='shop-container'>
       <div className="bike-container">
@@ -18,6 +26,7 @@ const Shop = () => {
           bikes.map(bike => <Bike
             key={bike.id}
             bike={bike}
+            handleAddToCart={handleAddToCart}
           ></Bike>)
         }
 
@@ -25,6 +34,17 @@ const Shop = () => {
 
       </div>
       <div className="choose-container">
+        <h3>Selected Bike {cartSelect.length}</h3>
+        {
+          cartSelect.map(item => (<h3>{item.name}</h3>))
+
+        }
+
+
+
+        <button>CHOOSE 1 FOR ME </button>
+        <button>CHOOSE AGAIN</button>
+
 
       </div>
 
