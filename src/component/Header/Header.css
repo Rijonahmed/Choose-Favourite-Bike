@@ -1,0 +1,12 @@
+.header{
+  background: rgb(247, 239, 239);
+  
+}
+.header h1{
+  color: rgba(56, 56, 247, 0.315);
+  text-align: center;
+}
+.header h3{
+  
+  text-align: center;
+}
