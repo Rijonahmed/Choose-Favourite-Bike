@@ -6,7 +6,8 @@ import './Shop.css'
 const Shop = () => {
   const [bikes, setBikes] = useState([]);
   const [cartSelect, setCartSelect] = useState([]);
-  console.log(cartSelect)
+  const [random, setRandom] = useState([]);
+  // console.log(cartSelect)
 
 
   useEffect(() => {
@@ -21,9 +22,28 @@ const Shop = () => {
     if (newCart.length <= 4) {
       setCartSelect(newCart);
     } else {
+      alert('alrady 4 item seleted')
 
 
     }
+  }
+
+  const handleRandomNumber = () => {
+    let randomly = cartSelect
+    randomly = cartSelect[Math.floor(Math.random() * cartSelect.length)];
+
+
+
+
+    console.log(randomly)
+
+
+
+    setRandom(randomly.name)
+  }
+  const clearData = () => {
+    setCartSelect([]);
+
   }
 
 
@@ -47,7 +67,7 @@ const Shop = () => {
 
 
 
-        <h3>Selected Bike {cartSelect.length}</h3>
+        <h3>Selected Bike {cartSelect.length}{random}</h3>
 
         {
 
@@ -55,14 +75,8 @@ const Shop = () => {
 
         }
 
-
-
-
-
-
-
-        <button>CHOOSE 1 FOR ME </button>
-        <button>CHOOSE AGAIN</button>
+        <button onClick={() => handleRandomNumber()}>CHOOSE 1 FOR ME </button>
+        <button onClick={() => clearData()}>CHOOSE AGAIN</button>
 
 
       </div>

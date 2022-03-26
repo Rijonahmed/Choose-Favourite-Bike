@@ -12,10 +12,13 @@
   width: 286px;
   border-radius: 8px;
   margin: 7px;
-  
-
 
 }
+.bike-info{
+  padding-left: 10px;
+    
+}
+
 .btn-cart{
   background: #FFE0B3;
   border: 0;

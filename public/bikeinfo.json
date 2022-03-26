@@ -2,51 +2,61 @@
   {
     "id": "1",
     "name": "Yamaha r15 v3",
-    "images": "https://images.unsplash.com/photo-1616941669284-86f3bfc1a044?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+    "price": "470,000 TK",
+    "images": "https://www.banglamotor.net/images/yamaha/yamaha-r15-v3-monster-image1.jpg"
   },
   {
     "id": "2",
     "name": "HONDA cbr",
-    "images": "https://images.unsplash.com/photo-1593536739061-7d47cb4e5672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+    "price": "540,000 TK",
+    "images": "https://www.banglamotor.net/images/honda/honda-cbr150r-f01.jpg"
   },
   {
     "id": "3",
     "name": "Suzuki Gixxer SF",
-    "images": "https://ic1.maxabout.us/autos/tw_india//S/2021/1/suzuki-gixxer-sf-glass-sparkle-black.jpg"
+    "price": "219,950 TK",
+    "images": "https://www.banglamotor.net/images/suzuki/suzuki-gixxer-sf-old-first1.jpg"
   },
   {
     "id": "4",
     "name": "Suzuki GSX R 150",
+    "price": " 350,000 tk",
     "images": "https://www.motorcyclevalley.com/photo/suzuki-gsx-r150.jpg"
   },
   {
     "id": "5",
-    "name": "Yamaha r15 v3",
-    "images": "https://images.unsplash.com/photo-1525160354320-d8e92641c563?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+    "name": "CBR150R Repsol",
+    "price": "520,000 TK",
+    "images": "https://www.banglamotor.net/images/honda/honda-cbr150r-repsol-first1.jpg"
   },
   {
     "id": "6",
-    "name": "Yamaha r15 v3",
-    "images": "https://unsplash.com/photos/bX8Ore1Oj10"
+    "name": "TVS Apache RTR 160 4v",
+    "price": "223,999 Tk",
+    "images": "https://www.banglamotor.net/images/tvs/tvs-apache-rtr-160-4v-first1.jpg"
   },
   {
     "id": "7",
-    "name": "Yamaha r15 v3",
-    "images": "https://unsplash.com/photos/bX8Ore1Oj10"
+    "name": "Kawasaki Ninja 125",
+    "price": "223,999 Tk",
+    "images": "https://www.banglamotor.net/images/kawasaki/kawasaki-ninja-125-first1.jpg"
   },
   {
     "id": "8",
-    "name": "Yamaha r15 v3",
-    "images": "https://unsplash.com/photos/bX8Ore1Oj10"
+    "name": "KTM Duke 125",
+    "price": "470,000 Tk",
+    "images": "https://www.banglamotor.net/images/ktm/ktm-125-duke-first1.jpg"
   },
   {
     "id": "9",
-    "name": "Yamaha r15 v3",
-    "images": "https://unsplash.com/photos/bX8Ore1Oj10"
+    "name": "Aprilia GPR 150",
+    "price": "371,000 Tk",
+    "images": "https://www.banglamotor.net/images/aprilia/aprilia-gpr-150-image1.jpg"
   },
   {
     "id": "10",
-    "name": "Yamaha r15 v3",
-    "images": "https://unsplash.com/photos/bX8Ore1Oj10"
+    "name": "Yamaha R15M ",
+    "price": "505,000 Tk",
+    "images": "https://www.banglamotor.net/images/yamaha/yamaha-r15m-image01.jpg"
   }
 ]
