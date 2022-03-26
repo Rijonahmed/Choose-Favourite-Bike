@@ -1,6 +1,7 @@
 .shop-container{
   display: grid;
   grid-template-columns: 4fr 1fr;
+  
 
 }
 .bike-container{
@@ -9,19 +10,71 @@
   gap: 45px;
   margin: 100px 50px;
 }
-.choose-container{
-  position: sticky;
-  top:0;
-};
+
+.btn-choose{
+  border: 2px solid green;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: green;
+}
+.btn-choose:hover{
+  background:green;
+  color: #fff;
+}
+.btn-clear{
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: red;
+
+}
+.btn-clear:hover{
+  background:red;
+  color: #fff;
+}
+
+.select-img{
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.select-info{
+  display: flex;
+  align-items: center;
+  
+}
 
 
-@media screen and (max-width:800px) {
+
+
+
+
+@media screen and (max-width:1000px) {
   .bike-container{
     grid-template-columns: repeat(2,1fr);
   }
+  .shop-container{
+   
+    grid-template-columns: auto;
+  }
+  .choose-container{
+    text-align: center;
+  }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
   .bike-container{
+
     grid-template-columns: repeat(1,1fr);
   }
+  .shop-container{
+   
+    grid-template-columns: auto;
+  }
+  .choose-container{
+    text-align: center;
+  }
+
+  
+  
 }

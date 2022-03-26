@@ -32,17 +32,12 @@ const Shop = () => {
     let randomly = cartSelect
     randomly = cartSelect[Math.floor(Math.random() * cartSelect.length)];
 
-
-
-
-    console.log(randomly)
-
-
-
     setRandom(randomly.name)
+
   }
   const clearData = () => {
     setCartSelect([]);
+    setRandom([]);
 
   }
 
@@ -67,16 +62,22 @@ const Shop = () => {
 
 
 
-        <h3>Selected Bike {cartSelect.length}{random}</h3>
+        <h3>Selected Bike: {random}</h3>
 
         {
 
-          cartSelect.map(item => (<h3 key={item.id}>{item.name}</h3>))
+          cartSelect.map(item => (
+
+            <h3 className='select-info' key={item.id}>
+              <img className='select-img' src={item.images} alt="" />
+              &nbsp;&nbsp;
+              {item.name}</h3>))
 
         }
 
-        <button onClick={() => handleRandomNumber()}>CHOOSE 1 FOR ME </button>
-        <button onClick={() => clearData()}>CHOOSE AGAIN</button>
+        <button className='btn-choose' onClick={() => handleRandomNumber()}>CHOOSE 1 FOR ME </button>
+        <p></p>
+        <button className='btn-clear' onClick={() => clearData()}>CHOOSE AGAIN</button>
 
 
       </div>
