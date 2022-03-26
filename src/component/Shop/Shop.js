@@ -59,13 +59,9 @@ const Shop = () => {
       </div>
       <div className="choose-container">
 
-
-
-
-        <h3>Selected Bike: {random}</h3>
+        <h3> Your Favourite Bike: {random}</h3>
 
         {
-
           cartSelect.map(item => (
 
             <h3 className='select-info' key={item.id}>

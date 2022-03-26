@@ -20,7 +20,7 @@
 }
 
 .btn-cart{
-  background: #FFE0B3;
+  background: rgba(128, 128, 128, 0.486);
   border: 0;
   border-radius: 0px 0px 8px 8px;
   width: 100%;
@@ -30,5 +30,7 @@
  
 }
 .btn-cart:hover{
-  background: rgb(223, 115, 115);
+  background: rgba(6, 6, 250, 0.712);
+  color: #fff;
+  cursor: pointer;
 }
